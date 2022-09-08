@@ -197,6 +197,7 @@
 .video__iframes {
   display: flex;
   justify-content: center;
+  margin-bottom: -160px;
 }
 
 .video__iframe {
@@ -233,6 +234,12 @@
 .table__text_source {
   margin-top: 20px;
   margin-bottom: 0;
+}
+
+.oakley {
+  background-color: #f2f2f2;
+  padding-top: 160px;
+  margin-bottom: -100px;
 }
 
 .feynman {
