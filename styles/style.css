@@ -83,6 +83,10 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  text-decoration: underline;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -262,7 +266,6 @@
 }
 
 .feynman__link {
-  display: flex;
   margin-right: 48px;
   line-height: 51px;
   font-size: 36px;
@@ -272,6 +275,10 @@
   position: absolute;
   right: 48px;
   top: 50%;
+}
+
+.feynman__link:hover {
+  text-decoration: underline;
 }
 
 .feynman_image {
@@ -348,6 +355,11 @@
   font-size: 30px;
   font-weight: normal;
   color: #2f80ed;
+  text-decoration: none;
+}
+
+.khan__buy-link:hover {
+  text-decoration: underline;
 }
 
 .kaufman {
@@ -415,6 +427,22 @@
   font-weight: normal;
 }
 
+.logo-zone {
+  display: flex;
+  margin: 80px auto 217px;
+  width: 1100px;
+}
+
+.resources__link {
+  margin: auto;
+  width: 270px;
+  height: 38px;
+}
+
+.resources__link:hover {
+  opacity: 0.7;
+}
+
 .footer {
   padding: 60px 0 40px;
   background-color: #1f1f1f;
@@ -427,7 +455,6 @@
   margin: 0 auto;
   color: white;
   min-height: 350px;
-  /* border: 1px solid red; */ 
 }
 
 .footer__column_content_copyright {
@@ -448,7 +475,6 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  /* border: 1px solid green; */
 }
 
 .footer__column_content {
@@ -486,6 +512,10 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+}
+
+.footer__column-link:hover {
+  text-decoration: underline;
 }
 
 .footer__social-icon {
